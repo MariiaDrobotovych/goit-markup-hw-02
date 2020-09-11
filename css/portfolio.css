@@ -72,20 +72,11 @@ footer {
 }
 
 /* main page */
-.section-title {
+
+.features a {
   color: var(--text-title);
 }
 
-.hero {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-bg-color);
-}
-
-.button {
-  background-color: var(--text-accent);
-  color: var(--main-bg-color);
-}
-
-.site-nav .current {
+.features .current {
   color: var(--text-accent);
 }
