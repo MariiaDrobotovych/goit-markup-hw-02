@@ -80,3 +80,16 @@ footer {
 .features .current {
   color: var(--text-accent);
 }
+
+.projects-images {
+  width: 370px;
+  height: 290px;
+}
+
+.title {
+  color: var(--text-title);
+}
+
+.site-nav .current {
+  color: var(--text-accent);
+}
