@@ -15,12 +15,16 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
+}
+
+.address {
+  font-style: normal;
 }
 
 .logo {
