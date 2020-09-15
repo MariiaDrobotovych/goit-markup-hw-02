@@ -29,7 +29,7 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -81,6 +81,14 @@ footer {
   background-color: var(--secondary-bg-color);
 }
 
+.address .address-start {
+  color: var(--main-bg-color);
+}
+
+.address .address-end {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .address a:hover,
 .address a:focus {
   color: var(--text-accent);
@@ -112,4 +120,10 @@ footer {
 
 .projects a p {
   color: var(--text-title);
+}
+
+button:hover,
+button:focus {
+  color: var(--main-bg-color);
+  background-color: var(--text-accent);
 }
